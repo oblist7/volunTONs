@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000b1f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1b2331;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid #00A5E4;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #00A5E4;
+}
+
+header p {
+    font-size: 18px;
+    color: #b8c1cc;
+}
+
+.section {
+    padding: 50px 0;
+    border-bottom: 2px solid #00A5E4;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00A5E4;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1b2331;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #b8c1cc;
+}
+
+/* Hover effect */
+.section ul li:hover {
+    color: #00A5E4;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Simple animation */
+header h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
